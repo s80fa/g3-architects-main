@@ -21,7 +21,7 @@ body {
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 50px 230px 0 230px;
+    padding: 0 230px 0 230px;
 }
 
 .nav-title {
