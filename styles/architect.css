@@ -4,6 +4,14 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+
+}
+
 /* ---------------Header Style---------------------- */
 .header-container {
     background: rgba(255, 144, 14, 0.1);
@@ -13,7 +21,7 @@ body {
 .nav-container {
     display: flex;
     justify-content: space-between;
-    padding: 50px 230px 100px 230px;
+    padding: 50px 230px 0 230px;
 }
 
 .nav-title {
@@ -39,23 +47,12 @@ nav li {
 .banner-details {
     align-items: center;
     text-align: center;
-
 }
 
 .banner-title {
     font-weight: 700;
     font-size: 64px;
     color: #131313;
-    /* margin-top: -40px; */
-}
-
-.banner-description {
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-    /* margin-top: -10px; */
-    margin-bottom: 30px;
-
 }
 
 .btn {
@@ -79,6 +76,43 @@ nav li {
 
 }
 
+/* --------------------Features Section Style----------------------- */
+
+.feature-section {
+    /* background: #e0a9d4; */
+    margin: 50px 100px;
+
+
+}
+
+.feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+.feature-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -93,6 +127,17 @@ nav li {
         padding-left: 50px;
 
     }
+
+    /* -------------for banner--------- */
+    .banner-image {
+        background-size: 90%;
+        background-position: top center;
+        margin-top: 20px;
+    }
+
+    .banner-details {
+        margin: 0 10px 10px 10px;
+    }
 }
 
 
@@ -105,5 +150,16 @@ nav li {
     .nav-container {
         flex-direction: column;
         align-items: center;
+    }
+
+    /* -------------for banner--------- */
+    .banner-image {
+        background-size: 85%;
+        background-position: top center;
+        margin-top: 20px;
+    }
+
+    .banner-details {
+        margin-top: -80px;
     }
 }
