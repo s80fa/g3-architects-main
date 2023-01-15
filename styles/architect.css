@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ---------------Header Style---------------------- */
+.header-container {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* ---------------Navigation Styles----------------- */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px 100px 230px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+/* ------------------Banner Title Styles--------------------- */
+/* .banner-container {
+    background: url(../images/banner.png);
+height: 700px;
+width: 100%;
+} */
+
+.banner-details {
+    align-items: center;
+    text-align: center;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-top: -40px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: -10px;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.banner-image {
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+    height: 700px;
+    width: 100%;
+
+}
+
+
+
+
+/*--------------------Media Query For Mobile-------------------*/
+/* ----------------------------------------------------------- */
+@media screen and (max-width: 576px) {
+
+    /* -------------for nav---------- */
+    .nav-container,
+    .nav-items {
+        flex-direction: column;
+        padding-left: 50px;
+
+    }
+}
+
+
+
+/*--------------------Media Query For Tab-------------------*/
+/* ----------------------------------------------------------- */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* -------------for nav---------- */
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
