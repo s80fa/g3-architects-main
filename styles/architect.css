@@ -326,6 +326,15 @@ nav li {
 
     /* ------------------------Sponsors Section styles----------------- */
 
+    .sponsor-section {
+        padding: 30px;
+        margin: 0;
+    }
+    .sponsor-logos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+        justify-items: center;}
 }
 
 
@@ -407,4 +416,12 @@ nav li {
     }
 
     /* ------------------------Sponsors Section styles----------------- */
+    .sponsor-logos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+        justify-items: center;
+    }
+
+
 }
