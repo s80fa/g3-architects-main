@@ -79,10 +79,7 @@ nav li {
 /* --------------------Features Section Style----------------------- */
 
 .feature-section {
-    /* background: #e0a9d4; */
-    margin: 50px 100px;
-
-
+    margin: 50px 150px;
 }
 
 .feature-container {
@@ -102,6 +99,70 @@ nav li {
 .feature-title {
     font-weight: 700;
     font-size: 45px;
+}
+
+/* ----------------------feature lists Styles------------------------- */
+.feature-list-section {
+    margin: 50px 100px 100px 150px;
+}
+
+.f-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+    /* margin: 50px; */
+}
+
+.f-list-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-left: 20px;
+    margin-right: 150px;
+}
+
+.course-container{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 15px;
+    
+}
+.course-details{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 0;
+
+}
+
+.course-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.archi-image{
+    background: url(../images/architect.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 8px;
+    height: 900px;
+    width: 100%;
+}
+.btn2{
+    width: 170px;
+    height: 120px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+
 }
 
 
@@ -151,7 +212,8 @@ nav li {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 24px;
     }
-    .feature-details{
+
+    .feature-details {
         text-align: center;
         width: 300px;
         height: 400px;
@@ -188,7 +250,8 @@ nav li {
         flex-direction: column;
         align-items: center;
     }
-    .feature-details{
+
+    .feature-details {
         text-align: center;
     }
 }
