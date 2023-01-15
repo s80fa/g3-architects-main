@@ -132,12 +132,31 @@ nav li {
     .banner-image {
         background-size: 90%;
         background-position: top center;
+        height: 210px;
         margin-top: 20px;
     }
 
     .banner-details {
         margin: 0 10px 10px 10px;
     }
+
+    /* --------------for feature----------- */
+    .feature-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+    .feature-details{
+        text-align: center;
+        width: 300px;
+        height: 400px;
+    }
+
 }
 
 
@@ -161,5 +180,14 @@ nav li {
 
     .banner-details {
         margin-top: -80px;
+    }
+
+    /* --------------for feature----------- */
+    .feature-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-details{
+        text-align: center;
     }
 }
