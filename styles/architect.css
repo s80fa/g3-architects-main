@@ -103,7 +103,8 @@ nav li {
 
 /* ----------------------feature lists Styles------------------------- */
 .feature-list-section {
-    margin: 50px 100px 100px 150px;
+    margin: 80px 100px 100px 150px;
+
 }
 
 .f-list-container {
@@ -155,7 +156,7 @@ nav li {
 }
 .btn2{
     width: 170px;
-    height: 120px;
+    height: 100px;
     background: #FF900E;
     border: none;
     border-radius: 8px;
@@ -217,6 +218,25 @@ nav li {
         text-align: center;
         width: 300px;
         height: 400px;
+    }
+    /* ------------------list feature---------- */
+    .feature-list-section{
+        margin: 10px;
+    }
+    .f-list-container{
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+    .f-list-title{
+        margin-right: 60px;
+    }
+    .course-container{
+        margin: 15px;
+    }
+    .archi-image{
+        width: 350px;
+        height: 600px;
     }
 
 }
