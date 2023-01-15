@@ -123,14 +123,15 @@ nav li {
     margin-right: 150px;
 }
 
-.course-container{
+.course-container {
 
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 15px;
-    
+
 }
-.course-details{
+
+.course-details {
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -145,7 +146,7 @@ nav li {
     color: #131313;
 }
 
-.archi-image{
+.archi-image {
     background: url(../images/architect.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +155,8 @@ nav li {
     height: 900px;
     width: 100%;
 }
-.btn2{
+
+.btn2 {
     width: 170px;
     height: 100px;
     background: #FF900E;
@@ -167,37 +169,68 @@ nav li {
 }
 
 /* -----------------------------Data section styles----------------*/
-.data-section{
+.data-section {
     margin-left: 160px;
     margin-right: 120px;
     /* background: lightblue; */
 }
-.data-info{
+
+.data-info {
     /* background: lemonchiffon; */
     padding: 15px;
     margin-right: 700px;
     text-align: left;
 }
-.data-title{
+
+.data-title {
     font-size: 45px;
     font-weight: 700;
 }
-.data{
-    display:flex;
-    gap:20px;
+
+.data {
+    display: flex;
+    gap: 20px;
     justify-content: space-evenly;
 }
-.data-details{
+
+.data-details {
     background: #FFFFFF;
     width: 210px;
     height: 210px;
     border: 2px solid #FF900E;
-    border-radius: 8px;    
+    border-radius: 8px;
     text-align: center;
     padding-top: 50px;
-   
+
 }
 
+/* ------------------------Sponsors Section styles----------------- */
+
+.sponsor-section {
+    margin: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.sponsor-container {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponsor-logos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-column-gap: 20px; */
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+    
 
 
 
@@ -250,41 +283,53 @@ nav li {
         width: 300px;
         height: 400px;
     }
+
     /* ------------------list feature---------- */
-    .feature-list-section{
+    .feature-list-section {
         margin: 10px;
     }
-    .f-list-container{
+
+    .f-list-container {
         flex-direction: column;
         gap: 50px;
-        
+
     }
-    .f-list-title{
+
+    .f-list-title {
         margin-right: 60px;
     }
-    .course-container{
+
+    .course-container {
         margin: 15px;
     }
-    .archi-image{
+
+    .archi-image {
         width: 350px;
         height: 600px;
     }
 
     /* --------------------Data section------------------- */
-    .data-info{
+    .data-info {
         padding: 15px;
         margin-right: 0;
     }
-    .data-section{
+
+    .data-section {
         margin: 0;
     }
-    .data{
+
+    .data {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
 
+    /* ------------------------Sponsors Section styles----------------- */
+
 }
+
+
+
 
 
 
@@ -319,37 +364,47 @@ nav li {
     .feature-details {
         text-align: center;
     }
+
     /* --------------------list feature--------------- */
-    .feature-list-section{
+    .feature-list-section {
         margin: 10px;
     }
-    .f-list-container{
+
+    .f-list-container {
         flex-direction: column;
         gap: 50px;
-        
+
     }
-    .f-list-title{
+
+    .f-list-title {
         margin-right: 60px;
     }
-    .course-container{
+
+    .course-container {
         margin: 15px;
     }
-    .archi-image{
+
+    .archi-image {
         width: 550px;
         height: 650px;
     }
+
     /* --------------------Data section------------------- */
-    .data-info{
+    .data-info {
         padding: 30px;
         margin-right: 0;
     }
-    .data-section{
+
+    .data-section {
         margin: 0 40px 40px 40px;
     }
-    .data{
+
+    .data {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         align-items: center;
     }
+
+    /* ------------------------Sponsors Section styles----------------- */
 }
