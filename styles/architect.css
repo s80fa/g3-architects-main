@@ -166,6 +166,37 @@ nav li {
 
 }
 
+/* -----------------------------Data section styles----------------*/
+.data-section{
+    margin-left: 160px;
+    margin-right: 120px;
+    /* background: lightblue; */
+}
+.data-info{
+    /* background: lemonchiffon; */
+    padding: 15px;
+    margin-right: 700px;
+    text-align: left;
+}
+.data-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.data{
+    display:flex;
+    gap:20px;
+    justify-content: space-evenly;
+}
+.data-details{
+    background: #FFFFFF;
+    width: 210px;
+    height: 210px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;    
+    text-align: center;
+    padding-top: 50px;
+   
+}
 
 
 
@@ -239,6 +270,20 @@ nav li {
         height: 600px;
     }
 
+    /* --------------------Data section------------------- */
+    .data-info{
+        padding: 15px;
+        margin-right: 0;
+    }
+    .data-section{
+        margin: 0;
+    }
+    .data{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
 }
 
 
@@ -273,5 +318,38 @@ nav li {
 
     .feature-details {
         text-align: center;
+    }
+    /* --------------------list feature--------------- */
+    .feature-list-section{
+        margin: 10px;
+    }
+    .f-list-container{
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+    .f-list-title{
+        margin-right: 60px;
+    }
+    .course-container{
+        margin: 15px;
+    }
+    .archi-image{
+        width: 550px;
+        height: 650px;
+    }
+    /* --------------------Data section------------------- */
+    .data-info{
+        padding: 30px;
+        margin-right: 0;
+    }
+    .data-section{
+        margin: 0 40px 40px 40px;
+    }
+    .data{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
     }
 }
